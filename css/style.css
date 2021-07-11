@@ -10,6 +10,7 @@ html {
 
 body {
   background-color: hsl(217, 28%, 15%);
+  font-family: "Open Sans", sans-serif;
   /* background-color: #ccc; */
 }
 h1 {
@@ -19,7 +20,7 @@ p {
   font-size: 1.6rem;
 }
 
-.container {
+#header {
   width: 90%;
   margin: 5rem auto;
 }
@@ -71,4 +72,26 @@ p {
   color: #fff;
   font-size: 1.6rem;
   border-radius: 2rem;
+}
+
+#service {
+  width: 60%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.service-item {
+  text-align: center;
+  color: #fff;
+  margin: 3rem 3.5rem;
+}
+
+.service-item img {
+  margin-bottom: 2rem;
+}
+.service-item h2 {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
 }
